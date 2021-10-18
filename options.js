@@ -33,5 +33,14 @@ module.exports = {
                 ]
             ]
         })
+    },
+    photoOption: {
+        reply_markup: {
+            inline_keyboard: [
+                [
+                    {text: 'Photo', callback_data: 'rasm olish'}
+                ]
+            ]
+        }
     }
 }
